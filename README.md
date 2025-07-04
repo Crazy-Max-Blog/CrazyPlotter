@@ -4,6 +4,8 @@
 
 ## Использование
 
+Ссылка: https://crazymax.is-a.dev/CrazyPlotter/index/
+
 Для запуска *select* -> выбор порта, *open*.
 
 Протокол:
