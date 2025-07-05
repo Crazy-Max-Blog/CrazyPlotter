@@ -42,13 +42,13 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: `./src/index.html`,
-            filename: `bitmaper.html`,
+            filename: `crazyplotter.html`,
             inject: true,
             minify: false,
             version: PACKAGE.version,
         }),
         new HtmlInlineScriptPlugin({
-            htmlMatchPattern: [/bitmaper.html$/],
+            htmlMatchPattern: [/crazyplotter.html$/],
         }),
         new MiniCssExtractPlugin({
             filename: 'style.css',

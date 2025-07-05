@@ -28,17 +28,12 @@ function parse(str) {
     return;
   }
 
-  var isData = true;
-  if(str.startsWith('!')) {
-    str = str.substring(1);
-    isData = false;
-  }
+  //if(str.startsWith('!')) str = str.substring(1); // Обратная совместимость с v0.1.0
+
   const s = str.split(/[;,]/);
   if (s.length === 0) return;
 
-  const c = s[0].charAt(0);
-    console.log(c);
-  if (isData && /\d|-/.test(c)) { // /\d|-/.test(c)
+  if (/\d/.test(s[0].charAt(0)) || (s[0].charAt(0) === '-' && /\d/.test(s[0].charAt(1)))) {
     const arr = new Array(s.length);
     for (let i = 0; i < s.length; i++) {
       arr[i] = parseFloat(s[i].trim());

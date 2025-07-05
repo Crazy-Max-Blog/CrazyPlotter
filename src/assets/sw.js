@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bitmaper_@cachename';
+const CACHE_NAME = 'crazyplotter_@cachename';
 
 const CACHED_URLS = [
   '/',
