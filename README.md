@@ -6,6 +6,9 @@
 
 Ссылка: https://crazymax.is-a.dev/CrazyPlotter/index/
 
+Также можно скачать по [ссылке](https://github.com/Crazy-Max-Blog/CrazyPlotter/releases/latest/download/crazyplotter.html)
+
+
 Для запуска *select* -> выбор порта, *open*.
 
 Протокол:
